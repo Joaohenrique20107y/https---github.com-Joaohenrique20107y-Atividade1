@@ -1,0 +1,78 @@
+.laranja{
+    background-color: orange;
+    text-align: center;
+    text-decoration-color: white;
+    margin: auto;
+}
+.branco{
+    background-color: white;
+    text-align: center;
+    text-decoration-color: black;
+}
+.butaoverde{
+    background-color: green;
+    color: white;
+    size: 500px;
+}
+.fundopreto{
+    background-color: black;
+    color: grey;
+    display: flex;
+    flex-direction: row;
+    justify-content: row;
+    gap: 20px;
+}
+h3{
+    text-align: center;
+    color: white;
+}
+.fundoverde{
+    background-color: green;
+    color: white;
+}
+.enfileirados{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    list-style: none;
+    text-decoration: none;
+    color: white;
+}
+.banner{
+    background-color: beige;
+    width: 15rem;
+    height: 15rem;
+    overflow: hidden;
+    margin-left: 40rem;
+}
+img{
+    width: 15rem;
+}
+ul{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    animation-name: fotos;
+    animation-duration: 8s;
+    animation-iteration-count: infinite;
+    gap: 20px;
+}
+@keyframes fotos{
+    0%{transform: translate(0);}
+    33%{transform: translate(-15rem)}
+    66%{transform: translate(-30rem)}
+    100%{transform: translate(0rem)}
+}
+.maior{
+    display: block;
+    justify-items: center;
+    justify-content: center;
+    margin: none;
+    background-color: orange;
+    size-adjust: auto;
+    size: 500px;
+}
+.semNegrito{
+    font-weight: normal;
+    color: grey;
+}

@@ -1,0 +1,37 @@
+.reto 
+{
+    display: flex;
+
+    flex-direction: row;
+}
+
+
+.aumenta 
+
+{ 
+
+     font-size: 3em;
+
+} 
+.azul 
+
+{ 
+
+    color: blue; 
+
+}
+
+button
+{
+    border-radius: 200px;
+    color: white;
+    background-color: blue;
+}
+.banner
+{
+    background-image: url(surf.png);
+}
+div
+{
+    background-color: rgb(7, 145, 199);
+}
